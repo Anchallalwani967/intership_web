@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoftGrowTech Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+    <div class="login-layout">
+        <section class="login-visual">
+            <div class="brand-login">
+                <span class="brand-mark">SG</span>
+                <div>
+                    <h1>SoftGrowTech</h1>
+                    <p>Design &amp; Development Studio</p>
+                </div>
+            </div>
+            <div class="login-copy">
+                <span class="eyebrow">Join Us</span>
+                <h2>Create your account for seamless project management.</h2>
+                <p>Register now to submit tasks, view progress, and keep your work organized with a modern dashboard experience.</p>
+                <div class="feature-list">
+                    <article>
+                        <strong>Easy setup</strong>
+                        <p>Register quickly with just a few details.</p>
+                    </article>
+                    <article>
+                        <strong>Secure access</strong>
+                        <p>Your information is safely stored in local browser storage.</p>
+                    </article>
+                    <article>
+                        <strong>Instant login</strong>
+                        <p>Sign in immediately after registration.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="login-card">
+            <div class="card-header">
+                <h2>Create Account</h2>
+                <p>Fill out the form below to get started.</p>
+            </div>
+            <form class="login-form" onsubmit="register(); return false;">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input id="name" type="text" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="name@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" placeholder="Choose a password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input id="confirmPassword" type="password" placeholder="Re-enter password" required>
+                </div>
+                <button class="primary-btn" type="submit">Register</button>
+                <p class="form-note">Already have an account? <a href="index.html">Login here</a></p>
+            </form>
+        </section>
+    </div>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 SoftGrowTech. Building smarter workflows for teams.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

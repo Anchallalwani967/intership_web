@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - SoftGrowTech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkLogin()" class="dashboard-page">
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <span class="brand-mark">SG</span>
+                <div>
+                    <h1>SoftGrowTech</h1>
+                    <p>Design & Development Studio</p>
+                </div>
+            </div>
+            <nav class="site-nav">
+                <a href="dashboard.html">Dashboard</a>
+                <a href="submit.html">Submit Task</a>
+                <a href="view.html">View Submissions</a>
+                <button onclick="logout()" class="logout-btn">Logout</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="dashboard-hero">
+            <h2>Welcome to Your Dashboard</h2>
+            <p>Manage your tasks and submissions all in one place.</p>
+        </section>
+
+        <section class="dashboard-grid">
+            <div class="dashboard-card">
+                <div class="card-icon">📋</div>
+                <h3>Submit Task</h3>
+                <p>Create and submit new tasks for review.</p>
+                <a href="submit.html" class="card-btn">Go to Submit</a>
+            </div>
+            <div class="dashboard-card">
+                <div class="card-icon">📁</div>
+                <h3>View Submissions</h3>
+                <p>Check all your submitted tasks and their status.</p>
+                <a href="view.html" class="card-btn">View Tasks</a>
+            </div>
+            <div class="dashboard-card">
+                <div class="card-icon">👤</div>
+                <h3>Account</h3>
+                <p>Manage your account settings and preferences.</p>
+                <a href="account.html" class="card-btn">Settings</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 SoftGrowTech. Building smarter workflows for teams.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

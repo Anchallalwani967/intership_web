@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Submissions - SoftGrowTech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkLogin(); displayTasks();" class="view-page">
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <span class="brand-mark">SG</span>
+                <div>
+                    <h1>SoftGrowTech</h1>
+                    <p>Design & Development Studio</p>
+                </div>
+            </div>
+            <nav class="site-nav">
+                <a href="dashboard.html">Dashboard</a>
+                <a href="submit.html">Submit Task</a>
+                <a href="view.html">View Submissions</a>
+                <button onclick="logout()" class="logout-btn">Logout</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="view-tasks">
+            <div class="section-header">
+                <h2>Your Submissions</h2>
+                <p>All your submitted tasks are displayed below.</p>
+            </div>
+            <div id="tasks" class="tasks-grid"></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 SoftGrowTech. Building smarter workflows for teams.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
