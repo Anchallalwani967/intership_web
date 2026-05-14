@@ -1,1 +1,1 @@
-# intership_web
+The SoftGrowTech Internship Management System is a web-based application developed using HTML, CSS, and JavaScript. It allows interns to register, log in, submit tasks, and manage their internship activities through a simple and responsive interface. The system helps organize task submissions and improves internship workflow management.
